@@ -26,6 +26,7 @@ This repository contains the information needed to describe the main topics on a
 ## WVD Deployment Guidance
 
 1. [Deploy an Azure AD Tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant)<br/>
+
 2. [Deploy an Azure Subscription](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription)<br/>
 3. Deploy Azure infrastructure and AD DS:<br/>
 3.1. [Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal)<br/>
