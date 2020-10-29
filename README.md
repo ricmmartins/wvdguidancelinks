@@ -87,11 +87,20 @@ This repository contains the information needed to describe the main topics on a
 11.5.18. [Delete local profile when FsLogix Profile should apply - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#deletelocalprofilewhenvhdshouldapply)<br/>
 11.5.19. [Prevent Login with failure - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithfailure)<br/>
 11.5.20. [Prevent login with temp profile -Optional](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithtempprofile)<br/>
-
-12.
-13.
-14.
-15.
+12. Using MSIX app attach:<br/>
+12.1. [What is MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)<br/>
+12.2. [Set up MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach)<br/>
+12.3. [MSIX app attach FAQ](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-faq)<br/>
+13. [Create a Host Pool for Pooled Personal Desktops](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
+14. Create a Host Pool for Pooled Remote Apps:<br/>
+14.1. [Publish built-in apps in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/publish-apps)<br/>
+14.3. [Manage app groups with the Azure portal] (https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
+15. Configure host pool settings:<br/>
+15.1. [RDP Properties](https://docs.microsoft.com/en-us/azure/virtual-desktop/customize-rdp-properties)<br/>
+15.2. [Configure device redirections (Mic, Speaker, Camera, Printer, Clipboard, USB, Local Drive, Plug and Play Devices)](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-device-redirections)<br/>
+15.3. [Host pool load-balancing methods](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing)<br/>
+15.4. [Configure the Windows Virtual Desktop load-balancing method](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-load-balancing)<br/>
+15.5. [Personal desktop assignment type](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type)<br/>
 16.
 17.
 18.
