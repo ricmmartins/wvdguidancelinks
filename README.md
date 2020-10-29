@@ -49,10 +49,10 @@ This repository contains the information needed to describe the main topics on a
 8.1.6. [OS Settings | Prepare and customize a master VHD image](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-customize-master-image)<br/>
 8.1.7. [OS Settings | Prepare a Windows VHD or VHDX to upload to Azure(https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br/>
 8.1.8. [OS Settings | Run Disk Cleanup](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cleanmgr)<br/>
-9. Image Management
+9. Image Management<br/>
 9.1. [Azure Academy - Image Management](https://www.youtube.com/watch?v=PCWJEoG8X-I)<br/>
 9.1.2. [Azure Academy - Shared Image Gallery](https://www.youtube.com/watch?v=2LxvwR9LGWQ)<br/>
-10. Define a strategy to store FSLogix profiles containers
+10. Define a strategy to store FSLogix profiles containers<br/>
 11.
 12.
 13.
