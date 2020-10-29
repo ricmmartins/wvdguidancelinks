@@ -33,7 +33,7 @@ This repository contains the information needed to describe the main topics on a
 3.2. [Subnet](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet)<br/>
 3.3. [NSG](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) (Permits AD Traffic, RDP incoming traffic, restricts DMZ access)<br/>
 3.4. [DNS configured to point to the domain controller](https://docs.microsoft.com/en-us/azure/virtual-network/manage-virtual-network#change-dns-servers)<br/>
-3.5. [Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)<br/>
+3.5. [Virtual Machine:](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)<br/>
 3.5.1. Active Directory Domain Services installed and configured<br/>
 3.5.2. Azure AD Connect installed and ready for configuration<br/>
 4. **Configure Azure AD Connect with AD DS:**<br/>
