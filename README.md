@@ -4,6 +4,7 @@ This repository contains the information needed to describe the main topics on a
 ## WVD Architecture Guidance
 
 1. [What is WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)<br/>
+
 2. [WVD Requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements)<br/>
 3. [Supported OS images](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#supported-virtual-machine-os-images)<br/>
 4. [Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context)<br/>
