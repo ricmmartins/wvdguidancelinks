@@ -25,9 +25,9 @@ This repository contains the information needed to describe the main topics on a
 
 ## WVD Deployment Guidance
 
-1. [Deploy an Azure AD Tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant)<br/>
+1. [**Deploy an Azure AD Tenant**](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant)<br/>
 
-2. [Deploy an Azure Subscription](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription)<br/>
+2. [**Deploy an Azure Subscription**](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription)<br/>
 3. **Deploy Azure infrastructure and AD DS:**<br/>
 3.1. [Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal)<br/>
 3.2. [Subnet](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet)<br/>
@@ -39,9 +39,9 @@ This repository contains the information needed to describe the main topics on a
 4. **Configure Azure AD Connect with AD DS:**<br/>
 4.1. [What is Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect)<br/>
 4.2. [Azure AD connect and Azure AD Connect Health installation](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-roadmap)<br/>
-5. [Windows Virtual Desktop environment concepts](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)<br/>
-6. [Create Azure AD Security Groups for WVD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)<br/>
-7. [Assign users to Groups](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)<br/>
+5. [**Windows Virtual Desktop environment concepts**](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)<br/>
+6. [**Create Azure AD Security Groups for WVD**](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)<br/>
+7. [**Assign users to Groups**](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)<br/>
 8. **Create a Master Image for WVD:**<br/>
 8.1. [Create a Master Image for WVD](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)<br/>
 8.1.2. [Install Office on a master VHD image](https://docs.microsoft.com/en-us/azure/virtual-desktop/install-office-on-wvd-master-image)<br/>
@@ -92,7 +92,7 @@ This repository contains the information needed to describe the main topics on a
 12.1. [What is MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)<br/>
 12.2. [Set up MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach)<br/>
 12.3. [MSIX app attach FAQ](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-faq)<br/>
-13. [Create a Host Pool for Pooled Personal Desktops](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
+13. [**Create a Host Pool for Pooled Personal Desktops**](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
 14. **Create a Host Pool for Pooled Remote Apps:**<br/>
 14.1. [Publish built-in apps in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/publish-apps)<br/>
 14.3. [Manage app groups with the Azure portal] (https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
@@ -108,7 +108,7 @@ This repository contains the information needed to describe the main topics on a
 16.3. [Android Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android)<br/>
 16.4. [macOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos)<br/>
 16.5. [iOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios)<br/>
-17. [Setup e-mail discovery to RDS feed](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-email-discovery)<br/>
+17. [**Setup e-mail discovery to RDS feed**](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-email-discovery)<br/>
 18. **Setup Monitoring for WVD:**<br/>
 18.1. [Azure Log Analytics and Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)<br/>
 18.2. [Sepago Solution](https://github.com/MarcelMeurer/LogAnalytics-for-Citrix-and-RDS)<br/>
@@ -122,7 +122,7 @@ This repository contains the information needed to describe the main topics on a
 20.3. [Security Best practices for WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)<br/>
 20.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
 20.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
-21. [Configuring automatic updates using Endpoint Configuration Manager](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
+21. [**Configuring automatic updates using Endpoint Configuration Manager**](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
 22. **WVD BCDR:**<br/>
 22.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
 22.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
@@ -137,8 +137,3 @@ This repository contains the information needed to describe the main topics on a
 23.2.2. Password protect the screen saver: Enabled<br/>
 23.2.3. Prevent changing screen saver: Enabled<br/>
 23.2.4. Screen saver timeout: Enabled (e.g., 80s)<br/>
-
-
-
-23.
-
