@@ -123,7 +123,7 @@ This repository contains the information needed to describe the main topics on a
 20.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
 20.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
 21. [Configuring automatic updates using Endpoint Configuration Manager](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
-22. WVD BCDR<br/>:
+22. WVD BCDR:<br/>
 22.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
 22.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
 22.3. [Backup and restore considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#backup-and-restore)<br/>
