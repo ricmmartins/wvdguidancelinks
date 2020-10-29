@@ -3,11 +3,11 @@ This repository contains the information needed to describe the main topics on a
 
 ## WVD Architecture Guidance
 
-1. [What is WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
-2. [WVD Requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements)
-3. [Supported OS images](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#supported-virtual-machine-os-images)
-4. [Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context)
-5. [Windows Virtual Desktop experience estimator](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context#windows-virtual-desktop-experience-estimator)
+1. [What is WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)<br/>
+2. [WVD Requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements)<br/>
+3. [Supported OS images](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#supported-virtual-machine-os-images)<br/>
+4. [Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context)<br/>
+5. [Windows Virtual Desktop experience estimator](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context#windows-virtual-desktop-experience-estimator)<br/>
 6. Virtual Machine Guidance:<br/>
 6.1. [Virtual machine sizing guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context)<br/>
 6.2. [Multi-session recommendations](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs#multi-session-recommendations)<br/>
