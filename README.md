@@ -58,38 +58,38 @@ This repository contains the information needed to describe the main topics on a
 10. **Define a strategy to store FSLogix profiles containers:**<br/>
 10.1. [Storage options for FSLogix Profile containers](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)<br/>
 10.1.1. [Azure Files and Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share)<br/>
-10.1.2. [How to implement FSLogix Profile container using Azure Files and Active Directory authentication for Windows Virtual Desktop](https://www.robinhobo.com/how-to-implement-fslogix-profile-container-using-azure-files-and-active-directory-authentication-for-windows-virtual-desktop-wvd/)<br/>
-10.1.3. [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-fslogix-profile-container)<br/>
-10.1.4. [Windows File Server](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-user-profile)<br/>
-10.1.5. [Azure Files and Azure Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-profile-container-adds)<br/>
+10.1.1.1. [How to implement FSLogix Profile container using Azure Files and Active Directory authentication for Windows Virtual Desktop](https://www.robinhobo.com/how-to-implement-fslogix-profile-container-using-azure-files-and-active-directory-authentication-for-windows-virtual-desktop-wvd/)<br/>
+10.1.2. [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-fslogix-profile-container)<br/>
+10.1.3. [Windows File Server](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-user-profile)<br/>
+10.1.4. [Azure Files and Azure Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-profile-container-adds)<br/>
 11. **FSLogix General Configuration:**<br/>
-19.1. [Use FSLogix Group Policy Template Files](https://docs.microsoft.com/en-us/fslogix/use-group-policy-templates-ht)<br/>
-20.2. [Profile Container registry configuration reference](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference)<br/>
-21.3. [Antivirus exclusions](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#antivirus-exclusions)<br/>
-22.4. **FSLogix Reference Links:**<br/>
-23.4.1. [Azure Academy - FSLogix with Azure Fileshare](https://www.youtube.com/watch?v=9S5A1IJqfOQ&t=647s)<br/>
-24.4.2. [Azure Academy - NetApp](https://www.youtube.com/watch?v=bswIbTB62mY)<br/>
-25.5. **GPO Recommendations:**<br/>
-26.5.1. [Enabled *** - Mandatory](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)<br/>
-27.5.2. [VHD Location *** - Mandatory](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)<br/>
-28.5.3. [Initiate definition update on start up](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present)<br/>
-29.5.4. [Specify interval to check for definition updates](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-protection-update-schedule-microsoft-defender-antivirus#use-group-policy-to-schedule-protection-updates)<br/>
-30.5.5. [Define number of days before virus definitions are considered out of date](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date)<br/>
-31.5.6. [Define the number of days before spyware definitions are considered out of date](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date)<br/>
-32.5.7. [Define the number of days before a catchup day is required](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-enable-and-configure-the-catch-up-update-feature)<br/>
-33.5.8. [Check for latest virus and spyware definitions on startup](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#check-for-protection-updates-on-startup)<br/>
-34.5.9. [Allow real time definition updates on report to microsoft MAPS](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#use-group-policy-to-automatically-download-recent-updates-based-on-cloud-delivered-protection)<br/>
-35.5.10. [Allow definition updates from microsoft update](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-mobile-devices-vms-microsoft-defender-antivirus#use-group-policy-to-opt-in-to-microsoft-update)<br/>
-36.5.11. [Dynamic VHDX allocation](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#isdynamic)<br/>
-37.5.12. [Extension Exclusions](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-group-policy-to-configure-folder-or-file-extension-exclusions)<br/>
-38.5.13. [SID directory name matching string](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#siddirnamematch)<br/>
-39.5.14. [SID directory name pattern string](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#siddirnamepattern)<br/>
-40.5.15. [Swap directory name components](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#flipflopprofiledirectoryname)<br/>
-41.5.16. [Virtual disk type should be VHDX](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#volumetype)<br/>
-42.5.17. [Size in Mbs](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#sizeinmbs)<br/>
-43.5.18. [Delete local profile when FsLogix Profile should apply - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#deletelocalprofilewhenvhdshouldapply)<br/>
-44.5.19. [Prevent Login with failure - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithfailure)<br/>
-45.5.20. [Prevent login with temp profile -Optional](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithtempprofile)<br/>
+11.1. [Use FSLogix Group Policy Template Files](https://docs.microsoft.com/en-us/fslogix/use-group-policy-templates-ht)<br/>
+11.2. [Profile Container registry configuration reference](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference)<br/>
+11.3. [Antivirus exclusions](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#antivirus-exclusions)<br/>
+12. **FSLogix Reference Links:**<br/>
+12.1. [Azure Academy - FSLogix with Azure Fileshare](https://www.youtube.com/watch?v=9S5A1IJqfOQ&t=647s)<br/>
+12.2. [Azure Academy - NetApp](https://www.youtube.com/watch?v=bswIbTB62mY)<br/>
+13. **GPO Recommendations:**<br/>
+13.1. [Enabled *** - Mandatory](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)<br/>
+13.2. [VHD Location *** - Mandatory](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)<br/>
+13.3. [Initiate definition update on start up](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present)<br/>
+13.4. [Specify interval to check for definition updates](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-protection-update-schedule-microsoft-defender-antivirus#use-group-policy-to-schedule-protection-updates)<br/>
+13.5. [Define number of days before virus definitions are considered out of date](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date)<br/>
+13.6. [Define the number of days before spyware definitions are considered out of date](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date)<br/>
+13.7. [Define the number of days before a catchup day is required](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#use-group-policy-to-enable-and-configure-the-catch-up-update-feature)<br/>
+13.8. [Check for latest virus and spyware definitions on startup](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#check-for-protection-updates-on-startup)<br/>
+13.9. [Allow real time definition updates on report to microsoft MAPS](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-event-based-updates-microsoft-defender-antivirus#use-group-policy-to-automatically-download-recent-updates-based-on-cloud-delivered-protection)<br/>
+13.10. [Allow definition updates from microsoft update](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-mobile-devices-vms-microsoft-defender-antivirus#use-group-policy-to-opt-in-to-microsoft-update)<br/>
+13.11. [Dynamic VHDX allocation](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#isdynamic)<br/>
+13.12. [Extension Exclusions](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-group-policy-to-configure-folder-or-file-extension-exclusions)<br/>
+13.14. [SID directory name matching string](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#siddirnamematch)<br/>
+13.15. [SID directory name pattern string](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#siddirnamepattern)<br/>
+13.16. [Swap directory name components](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#flipflopprofiledirectoryname)<br/>
+13.17. [Virtual disk type should be VHDX](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#volumetype)<br/>
+13.18. [Size in Mbs](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#sizeinmbs)<br/>
+13.19. [Delete local profile when FsLogix Profile should apply - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#deletelocalprofilewhenvhdshouldapply)<br/>
+13.20. [Prevent Login with failure - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithfailure)<br/>
+13.21. [Prevent login with temp profile -Optional](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithtempprofile)<br/>
 46. **Using MSIX app attach:**<br/>
 47.1. [What is MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)<br/>
 48.2. [Set up MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach)<br/>
