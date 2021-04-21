@@ -90,53 +90,53 @@ This repository contains the information needed to describe the main topics on a
 13.19. [Delete local profile when FsLogix Profile should apply - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#deletelocalprofilewhenvhdshouldapply)<br/>
 13.20. [Prevent Login with failure - Optional*](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithfailure)<br/>
 13.21. [Prevent login with temp profile -Optional](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference#preventloginwithtempprofile)<br/>
-46. **Using MSIX app attach:**<br/>
-47.1. [What is MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)<br/>
-48.2. [Set up MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach)<br/>
-49.3. [MSIX app attach FAQ](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-faq)<br/>
-50. [**Create a Host Pool for Pooled Personal Desktops**](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
-51. **Create a Host Pool for Pooled Remote Apps:**<br/>
-52.1. [Publish built-in apps in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/publish-apps)<br/>
-53.3. [Manage app groups with the Azure portal] (https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
-54. **Configure host pool settings:**<br/>
-55.1. [RDP Properties](https://docs.microsoft.com/en-us/azure/virtual-desktop/customize-rdp-properties)<br/>
-56.2. [Configure device redirections (Mic, Speaker, Camera, Printer, Clipboard, USB, Local Drive, Plug and Play Devices)](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-device-redirections)<br/>
-57.3. [Host pool load-balancing methods](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing)<br/>
-58.4. [Configure the Windows Virtual Desktop load-balancing method](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-load-balancing)<br/>
-59.5. [Personal desktop assignment type](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type)<br/>
-60. **Connect WVD with clients:**<br/>
-61.1. [Windows Desktop Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10)<br/>
-62.2. [HTML5 Web Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-web)<br/>
-63.3. [Android Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android)<br/>
-64.4. [macOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos)<br/>
-65.5. [iOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios)<br/>
-66. [**Setup e-mail discovery to RDS feed**](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-email-discovery)<br/>
-67. **Setup Monitoring for WVD:**<br/>
-68.1. [Azure Log Analytics and Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)<br/>
-69.2. [Sepago Solution](https://github.com/MarcelMeurer/LogAnalytics-for-Citrix-and-RDS)<br/>
-70.3. [Azure Academy - Monitoring Workbook](https://www.youtube.com/watch?v=ERftVHEy5A4)<br/>
-71.4. [Use Azure Monitor for Windows Virtual Desktop to monitor your deployment](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
-72. **Setup the WVD Scaling Tool:**<br/>
-73.1. [Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)<br/>
-74.2. [Azure Academy - Scaling Automation](https://www.youtube.com/watch?v=4zDazJsa2Zk&t=604s)<br/>
-75. **WVD Security:**<br/>
-76.1. [Enabling MFA to WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-mfa)<br/>
-77.2. [Azure Academy - Session Host Security](https://www.youtube.com/watch?v=5aK6BoXcZnU&t=328s)<br/>
-78.3. [Security Best practices for WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)<br/>
-79.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
-80.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
-81. [**Configuring automatic updates using Endpoint Configuration Manager**](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
-82. **WVD BCDR:**<br/>
-83.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
-84.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
-85.3. [Backup and restore considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#backup-and-restore)<br/>
-86. **GPO Suggestions:**<br/>
-87.1. **Computer Configuration > Policies > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Session Time Limits:**<br/>
-88.1.1. Set time limit for active but idle Remote Desktop Services sessions: Enabled (e.g., 6 hours)<br/>
-89.1.2. Set time limit for disconnected sessions: Enabled (e.g., 8 hours)<br/>
-90.1.3. Set time limit for logoff of RemoteApp sessions: Enabled (e.g., 6 hours)<br/>
-91.2. **User Configuration > Policies > Administrative Templates > Control Panel > Personalization:**<br/>
-92.2.1. Force specific screen saver: Enabled (e.g., %winDir%\System32\ssText3d.scr)<br/>
-93.2.2. Password protect the screen saver: Enabled<br/>
-94.2.3. Prevent changing screen saver: Enabled<br/>
-95.2.4. Screen saver timeout: Enabled (e.g., 80s)<br/>
+14. **Using MSIX app attach:**<br/>
+14.1. [What is MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)<br/>
+14.2. [Set up MSIX app attach](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach)<br/>
+14.3. [MSIX app attach FAQ](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-faq)<br/>
+15. [**Create a Host Pool for Pooled Personal Desktops**](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
+16. **Create a Host Pool for Pooled Remote Apps:**<br/>
+16.1. [Publish built-in apps in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/publish-apps)<br/>
+16.2. [Manage app groups with the Azure portal] (https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
+17. **Configure host pool settings:**<br/>
+17.1. [RDP Properties](https://docs.microsoft.com/en-us/azure/virtual-desktop/customize-rdp-properties)<br/>
+17.2. [Configure device redirections (Mic, Speaker, Camera, Printer, Clipboard, USB, Local Drive, Plug and Play Devices)](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-device-redirections)<br/>
+17.3. [Host pool load-balancing methods](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing)<br/>
+17.4. [Configure the Windows Virtual Desktop load-balancing method](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-load-balancing)<br/>
+17.5. [Personal desktop assignment type](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type)<br/>
+18. **Connect WVD with clients:**<br/>
+18.1. [Windows Desktop Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10)<br/>
+18.2. [HTML5 Web Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-web)<br/>
+183. [Android Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android)<br/>
+18.4. [macOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos)<br/>
+18.5. [iOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios)<br/>
+19. [**Setup e-mail discovery to RDS feed**](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-email-discovery)<br/>
+20. **Setup Monitoring for WVD:**<br/>
+20.1. [Azure Log Analytics and Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)<br/>
+20.2. [Sepago Solution](https://github.com/MarcelMeurer/LogAnalytics-for-Citrix-and-RDS)<br/>
+20.3. [Azure Academy - Monitoring Workbook](https://www.youtube.com/watch?v=ERftVHEy5A4)<br/>
+20.4. [Use Azure Monitor for Windows Virtual Desktop to monitor your deployment](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
+21. **Setup the WVD Scaling Tool:**<br/>
+21.1. [Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)<br/>
+21.2. [Azure Academy - Scaling Automation](https://www.youtube.com/watch?v=4zDazJsa2Zk&t=604s)<br/>
+22. **WVD Security:**<br/>
+22.1. [Enabling MFA to WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-mfa)<br/>
+22.2. [Azure Academy - Session Host Security](https://www.youtube.com/watch?v=5aK6BoXcZnU&t=328s)<br/>
+22.3. [Security Best practices for WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)<br/>
+22.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
+22.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
+23. [**Configuring automatic updates using Endpoint Configuration Manager**](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
+24. **WVD BCDR:**<br/>
+24.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
+24.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
+24.3. [Backup and restore considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#backup-and-restore)<br/>
+25. **GPO Suggestions:**<br/>
+25.1. **Computer Configuration > Policies > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Session Time Limits:**<br/>
+25.1.1. Set time limit for active but idle Remote Desktop Services sessions: Enabled (e.g., 6 hours)<br/>
+25.1.2. Set time limit for disconnected sessions: Enabled (e.g., 8 hours)<br/>
+25.1.3. Set time limit for logoff of RemoteApp sessions: Enabled (e.g., 6 hours)<br/>
+25.2. **User Configuration > Policies > Administrative Templates > Control Panel > Personalization:**<br/>
+25.2.1. Force specific screen saver: Enabled (e.g., %winDir%\System32\ssText3d.scr)<br/>
+25.2.2. Password protect the screen saver: Enabled<br/>
+25.2.3. Prevent changing screen saver: Enabled<br/>
+25.2.4. Screen saver timeout: Enabled (e.g., 80s)<br/>
