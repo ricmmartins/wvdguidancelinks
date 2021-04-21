@@ -113,27 +113,28 @@ This repository contains the information needed to describe the main topics on a
 18.1. [Azure Log Analytics and Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)<br/>
 18.2. [Sepago Solution](https://github.com/MarcelMeurer/LogAnalytics-for-Citrix-and-RDS)<br/>
 18.3. [Azure Academy - Monitoring Workbook](https://www.youtube.com/watch?v=ERftVHEy5A4)<br/>
-19. **Setup the WVD Scaling Tool:**<br/>
-19.1. [Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)<br/>
-19.2. [Azure Academy - Scaling Automation](https://www.youtube.com/watch?v=4zDazJsa2Zk&t=604s)<br/>
-20. **WVD Security:**<br/>
-20.1. [Enabling MFA to WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-mfa)<br/>
-20.2. [Azure Academy - Session Host Security](https://www.youtube.com/watch?v=5aK6BoXcZnU&t=328s)<br/>
-20.3. [Security Best practices for WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)<br/>
-20.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
-20.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
-21. [**Configuring automatic updates using Endpoint Configuration Manager**](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
-22. **WVD BCDR:**<br/>
-22.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
-22.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
-22.3. [Backup and restore considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#backup-and-restore)<br/>
-23. **GPO Suggestions:**<br/>
-23.1. **Computer Configuration > Policies > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Session Time Limits:**<br/>
-23.1.1. Set time limit for active but idle Remote Desktop Services sessions: Enabled (e.g., 6 hours)<br/>
-23.1.2. Set time limit for disconnected sessions: Enabled (e.g., 8 hours)<br/>
-23.1.3. Set time limit for logoff of RemoteApp sessions: Enabled (e.g., 6 hours)<br/>
-23.2. **User Configuration > Policies > Administrative Templates > Control Panel > Personalization:**<br/>
-23.2.1. Force specific screen saver: Enabled (e.g., %winDir%\System32\ssText3d.scr)<br/>
-23.2.2. Password protect the screen saver: Enabled<br/>
-23.2.3. Prevent changing screen saver: Enabled<br/>
-23.2.4. Screen saver timeout: Enabled (e.g., 80s)<br/>
+18.4. [Use Azure Monitor for Windows Virtual Desktop to monitor your deployment](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
+20. **Setup the WVD Scaling Tool:**<br/>
+21.1. [Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)<br/>
+22.2. [Azure Academy - Scaling Automation](https://www.youtube.com/watch?v=4zDazJsa2Zk&t=604s)<br/>
+23. **WVD Security:**<br/>
+24.1. [Enabling MFA to WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-mfa)<br/>
+25.2. [Azure Academy - Session Host Security](https://www.youtube.com/watch?v=5aK6BoXcZnU&t=328s)<br/>
+26.3. [Security Best practices for WVD](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)<br/>
+27.4. [Safe URL List](https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list)<br/>
+28.5. [Use Azure Firewall to protect WVD](https://docs.microsoft.com/en-us/azure/firewall/protect-windows-virtual-desktop)<br/>
+29. [**Configuring automatic updates using Endpoint Configuration Manager**](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates)
+30. **WVD BCDR:**<br/>
+31.1. [Setup BCDR Plan](https://docs.microsoft.com/en-us/azure/virtual-desktop/disaster-recovery)<br/>
+32.2. [Disaster recovery considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#disaster-recovery)<br/>
+33.3. [Backup and restore considerations](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#backup-and-restore)<br/>
+34. **GPO Suggestions:**<br/>
+35.1. **Computer Configuration > Policies > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Session Time Limits:**<br/>
+36.1.1. Set time limit for active but idle Remote Desktop Services sessions: Enabled (e.g., 6 hours)<br/>
+37.1.2. Set time limit for disconnected sessions: Enabled (e.g., 8 hours)<br/>
+38.1.3. Set time limit for logoff of RemoteApp sessions: Enabled (e.g., 6 hours)<br/>
+39.2. **User Configuration > Policies > Administrative Templates > Control Panel > Personalization:**<br/>
+40.2.1. Force specific screen saver: Enabled (e.g., %winDir%\System32\ssText3d.scr)<br/>
+41.2.2. Password protect the screen saver: Enabled<br/>
+42.2.3. Prevent changing screen saver: Enabled<br/>
+43.2.4. Screen saver timeout: Enabled (e.g., 80s)<br/>
