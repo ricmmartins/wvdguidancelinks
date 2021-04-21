@@ -56,13 +56,13 @@ This repository contains the information needed to describe the main topics on a
 9.1.2. [Azure Academy - Shared Image Gallery](https://www.youtube.com/watch?v=2LxvwR9LGWQ)<br/>
 9.1.3. [Image Management : How to manage and deploy custom images (including versioning) with the Azure Shared Image Gallery (SIG) (robinhobo.com)](https://www.robinhobo.com/windows-virtual-desktop-wvd-image-management-how-to-manage-and-deploy-custom-images-including-versioning-with-the-azure-shared-image-gallery-sig/)
 10. **Define a strategy to store FSLogix profiles containers:**<br/>
-12.1. [Storage options for FSLogix Profile containers](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)<br/>
-13.1.1. [Azure Files and Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share)<br/>
-13.1.2. [How to implement FSLogix Profile container using Azure Files and Active Directory authentication for Windows Virtual Desktop (WVD) (robinhobo.com)](https://www.robinhobo.com/how-to-implement-fslogix-profile-container-using-azure-files-and-active-directory-authentication-for-windows-virtual-desktop-wvd/)
-15.1.2. [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-fslogix-profile-container)<br/>
-16.1.3. [Windows File Server](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-user-profile)<br/>
-17.1.4. [Azure Files and Azure Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-profile-container-adds)<br/>
-18. **FSLogix General Configuration:**<br/>
+10.1. [Storage options for FSLogix Profile containers](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)<br/>
+10.1.1. [Azure Files and Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share)<br/>
+10.1.2. [How to implement FSLogix Profile container using Azure Files and Active Directory authentication for Windows Virtual Desktop](https://www.robinhobo.com/how-to-implement-fslogix-profile-container-using-azure-files-and-active-directory-authentication-for-windows-virtual-desktop-wvd/)<br/>
+10.1.3. [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-fslogix-profile-container)<br/>
+10.1.4. [Windows File Server](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-user-profile)<br/>
+10.1.5. [Azure Files and Azure Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-profile-container-adds)<br/>
+11. **FSLogix General Configuration:**<br/>
 19.1. [Use FSLogix Group Policy Template Files](https://docs.microsoft.com/en-us/fslogix/use-group-policy-templates-ht)<br/>
 20.2. [Profile Container registry configuration reference](https://docs.microsoft.com/en-us/fslogix/profile-container-configuration-reference)<br/>
 21.3. [Antivirus exclusions](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#antivirus-exclusions)<br/>
