@@ -107,7 +107,7 @@ This repository contains the information needed to describe the main topics on a
 18. **Connect WVD with clients:**<br/>
 18.1. [Windows Desktop Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10)<br/>
 18.2. [HTML5 Web Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-web)<br/>
-183. [Android Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android)<br/>
+18.3. [Android Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android)<br/>
 18.4. [macOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos)<br/>
 18.5. [iOS Client](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios)<br/>
 19. [**Setup e-mail discovery to RDS feed**](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-email-discovery)<br/>
