@@ -97,7 +97,7 @@ This repository contains the information needed to describe the main topics on a
 15. [**Create a Host Pool for Pooled Personal Desktops**](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)<br/>
 16. **Create a Host Pool for Pooled Remote Apps:**<br/>
 16.1. [Publish built-in apps in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/publish-apps)<br/>
-16.2. [Manage app groups with the Azure portal] (https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
+16.2. [Manage app groups with the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups)<br/>
 17. **Configure host pool settings:**<br/>
 17.1. [RDP Properties](https://docs.microsoft.com/en-us/azure/virtual-desktop/customize-rdp-properties)<br/>
 17.2. [Configure device redirections (Mic, Speaker, Camera, Printer, Clipboard, USB, Local Drive, Plug and Play Devices)](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-device-redirections)<br/>
